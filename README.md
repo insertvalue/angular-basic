@@ -8,7 +8,7 @@ nodejs angularjs例子
 
 ###headroomjs的使用
 1. headroomjs只负责触发滚动事件时，修改header的class，需自己添加header的样式定义[animate.css](http://daneden.github.io/animate.css/)
-2. 给header添加*header--fixed*样式如下：<br/>
+2. 给header添加*header--fixed*样式如下：
 ```css
 .header--fixed {
   position: fixed;
