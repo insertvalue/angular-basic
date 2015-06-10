@@ -1,15 +1,14 @@
 nodejs angularjs例子
 =============
-#step 1
+#安装nodejs插件
 `npm install`
 
-#step 2
+#安装bower插件
 `bower install`
 
 #headroomjs的使用
-1. 导航条动画效果：添加[animate.css](http://daneden.github.io/animate.css/)
-2. headroomjs只负责出发滚动时间时，修改header的class，需自己添加header的样式定义
-3. 给header添加*header--fixed*样式如下：<br/>
+1. headroomjs只负责触发滚动事件时，修改header的class，需自己添加header的样式定义[animate.css](http://daneden.github.io/animate.css/)
+2. 给header添加*header--fixed*样式如下：<br/>
 ```css
 .header--fixed {
   position: fixed;
@@ -19,7 +18,7 @@ nodejs angularjs例子
   top: 0;
 }
 ```
-4. 在angularjs初始化之前设置Headroom的参数如下：
+3. 在angularjs初始化之前设置Headroom的参数如下：
 ```javascript
 Headroom.options.offset = 200;
 Headroom.options.classes = {
