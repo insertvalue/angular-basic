@@ -1,12 +1,12 @@
 nodejs angularjs例子
 =============
-#安装nodejs插件
+###安装nodejs插件
 `npm install`
 
-#安装bower插件
+###安装bower插件
 `bower install`
 
-#headroomjs的使用
+###headroomjs的使用
 1. headroomjs只负责触发滚动事件时，修改header的class，需自己添加header的样式定义[animate.css](http://daneden.github.io/animate.css/)
 2. 给header添加*header--fixed*样式如下：<br/>
 ```css
